@@ -19,8 +19,13 @@ const corsOrigins = [
     'http://localhost:5001',
     'http://localhost:5173',
     'http://localhost:5002',
+
+    // OLD DOMAIN
     'https://quizarena.in',
     'https://dashboard.quizarena.in',
+
+    // NEW VERCEL DOMAIN
+    'https://quizfrontend-bice.vercel.app',
 ];
 const corsOptions = {
     origin: corsOrigins,
